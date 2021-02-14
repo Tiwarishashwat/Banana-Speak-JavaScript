@@ -5,13 +5,12 @@ var outputDiv = document.querySelector("#output");
 var wordLength = document.querySelector("#twitterConcept");
 var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
-//Displaying number of characters in realtime
-function numberOfWords() {
-    wordLength.innerText = "You have written " + txtInput.value.length + " characters," + " you have " + (280 - textInput.length) + " characters left!"
-}
-
 //Listening to events : Characters Left Function
-txtInput.addEventListener("keypress", numberOfWords);
+txtInput.addEventListener("keyup", function(){
+    var counter=txtInput.value.length;
+    var output = "You have written " + counter + " characters, and " + " you have " + (280 - counter) + " characters left!";
+    wordLength.innerText = output;
+});
 
 //Error Handling
 function errorHandler(error) {
