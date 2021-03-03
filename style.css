@@ -1,0 +1,52 @@
+header{
+    border: 1px solid yellow;
+    background-color: yellow;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+body
+{
+  background-color:#4E667C;
+}
+textarea {
+    width: 80%;
+    display: block;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: yellow;
+}
+#output
+{
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: yellow;
+}
+#twitterConcept
+{
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    color: yellow;
+}
+#btn-translate
+{
+    border-radius: 8px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid yellow;
+    font-style: italic;
+    font-weight: lighter;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 0px;
+}
